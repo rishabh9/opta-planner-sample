@@ -1,2 +1,2 @@
 # opta-planner-sample
-JBoss Optaplanner Sample with Google Distance Matrix API
+JBoss Optaplanner with Google Distance Matrix API Sample
