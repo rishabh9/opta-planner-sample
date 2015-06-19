@@ -16,12 +16,34 @@ import java.net.SocketAddress;
  */
 public class App {
 
-    public static final String API_KEY = "AIzaSyCkjTXp7I6gaA0zg5iJpX39nQw4oiYw77s";
+    public static final String API_KEY = "";
 
     public static void main(String[] args) {
 
-        String[] origins = {"12.9752265,77.7391331"};
-        String[] destinations = {"12.9752265,77.7391331"};
+        String[] origins = {"12.92386,77.65312",
+                "12.92603,77.67625",
+                "12.87206,77.55859",
+                "12.96899,77.61006",
+                "12.96934,77.60854",
+                "12.88021,77.64558",
+                "13.09264,77.5862",
+                "13.08792,77.58914",
+                "13.0782,77.58725",
+                "13.09445,77.58601"
+
+        };
+        String[] destinations = {"12.92386,77.65312",
+                "12.92603,77.67625",
+                "12.87206,77.55859",
+                "12.96899,77.61006",
+                "12.96934,77.60854",
+                "12.88021,77.64558",
+                "13.09264,77.5862",
+                "13.08792,77.58914",
+                "13.0782,77.58725",
+                "13.09445,77.58601"
+
+        };
 
         GeoApiContext context = new GeoApiContext().setApiKey(API_KEY);
         SocketAddress address = new InetSocketAddress("stbeproxy.symphonyteleca.com", 8080);
